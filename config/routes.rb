@@ -1,6 +1,7 @@
 Quiz1::Application.routes.draw do
   root 'holmes#index'
 
+  resources :holmes 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -3,5 +3,6 @@ class HolmesController < ApplicationController
   end
 
   def new
+    @holme = Holme.new
   end
 end

@@ -1,1 +1,6 @@
-<h1>Enter the new menu item:</h1>
+<h1>Enter the Task</h1>
+<%= simple_form_for @holme do |f| %>
+  <%= f.input :task_name %>
+  <%= f.input :task_type %>
+  <%= f.submit 'Create', class: 'btn btn-info' %>
+<% end %>
